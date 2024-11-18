@@ -5,10 +5,10 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
-# import matplotlib.pyplot as plt
 
 df = pd.read_csv("air traffic.csv")  # creation of the dataframe
 data = df["Pax"].str.replace(",", "").values.astype('int')  # take only one column and take off commas from each value
+
 
 values = []  # Initialize array of values to be evaluated
 prediction = []
