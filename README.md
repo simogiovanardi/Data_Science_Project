@@ -8,5 +8,7 @@ Models that have been used are:
 - Linear Regression;
 - KNN K-Nearest Neighbors.
 
-It's possible to see the main file, where the code is stored.
+The code can be found in the main.py file.
+
+# TODO Some dependencies must be installed in base of the used IDE.
 
